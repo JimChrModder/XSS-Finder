@@ -26,12 +26,12 @@ then
  read Option
  if [ $Option -eq "1" ]
  then
-    python ScreamingCobra1.py
+    python /usr/share/ScreamingCobra/ScreamingCobra1.py
  fi
 
  if [ $Option -eq "2" ]
  then
-    python ScreamingCobra2.py
+    python /usr/share/ScreamingCobra/ScreamingCobra2.py
  fi
 fi 
 if [ $Option -eq "2" ]
