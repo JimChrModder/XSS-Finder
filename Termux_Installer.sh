@@ -37,6 +37,7 @@ echo -e "Installing Modules"
 pip2 install -r requirements.txt
 pip2 install httplib2
 pip2 install mechanize
+pip2 install colorterm
 
 echo -e "[+] Installed Success!";
 echo -e "[+] Reboot Termux";
