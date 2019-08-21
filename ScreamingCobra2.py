@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
     payloads_file = open(PAYLOADS_FILENAME)
     threadpool = ThreadPool(MAX_THREAD_COUNT)
-    print colored('[+] ', 'red'), colored('Enter Absolute URI:', 'green')
+    print colored('[+] ', 'red'), colored('Enter Absolute Parameter, URI, URL:', 'green')
     url = sites = str(raw_input("[-]  "))        
     urlparse.urlparse('')    
     print colored('[+] ', 'red'), colored('Loaded Parallel Engine', 'green')
