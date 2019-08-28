@@ -56,8 +56,8 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - Android Led TV, Termux, Linux, Windows using cygwin
 
 # Versions
-- Version 1 is a normal version, could be used any time
-- Version 2 is a Dom case is a special version, should be used only in Dom case
+- Version 1 is a normal version
+- Version 2 is a Dom Experimental version
 
 
 # URI, URL, Parameters Payloads
