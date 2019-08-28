@@ -60,7 +60,7 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - Version 2 is a Dom case is a special version, should be used only in Dom case
 
 
-# URI Payloads
+# URI, URL, Parameters Payloads
 - Parameter :
 - https://example.com.pk/pages.php?id=
 
@@ -72,3 +72,11 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - https://example.com.pk/pages/
 - https://example.com.pk/pages.php?id#
 
+
+# XSS Payload Files
+- payload
+- dompayload
+
+# Increasing XSS Payload Files
+- copy paste your payload direct into payload file
+- copy pastge your dom payload direct into dompayload file
