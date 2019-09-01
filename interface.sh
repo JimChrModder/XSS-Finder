@@ -34,19 +34,3 @@ then
     python /usr/share/ScreamingCobra/ScreamingCobra2.py
  fi
 fi 
-if [ $Option -eq "2" ]
-then
- echo -e "$red [$green+$red] 1:$off Normal Version ";
- echo -e "$red [$green+$red] 2:$off Dom Case Version ";
- echo -ne "$red [$green+$red] Selectg An Option:$off: " ;
- read Option
- if [ $Option -eq "1" ]
- then
-    python2 ScreamingCobra1.py
- fi
-
- if [ $Option -eq "2" ]
- then
-    python2 ScreamingCobra2.py
- fi
-fi 
