@@ -67,12 +67,18 @@ echo -e "$red [$green+$red]$off Creating Symbolic Link ...";
 echo -e ""
 python /usr/share/ScreamingCobra/ScreamingCobra1.py > "ScreamingCobra1";
 python /usr/share/ScreamingCobra/ScreamingCobra2.py > "ScreamingCobra2";
+python /usr/share/ScreamingCobra/ScreamingCobra3.py > "ScreamingCobra3";
+python /usr/share/ScreamingCobra/ScreamingCobra4.py > "ScreamingCobra4";
+python /usr/share/ScreamingCobra/ScreamingCobra5.py > "ScreamingCobra5";
 chmod 777 interface.sh
 interface.sh > "ScreamingCobra";
     chmod +x "ScreamingCobra";
     sudo mkdir "/usr/share/ScreamingCobra"
     sudo cp "ScreamingCobra1.py" "/usr/share/ScreamingCobra/ScreamingCobra1"
     sudo cp "ScreamingCobra2.py" "/usr/share/ScreamingCobra/ScreamingCobra2"
+    sudo cp "ScreamingCobra3.py" "/usr/share/ScreamingCobra/ScreamingCobra3"
+    sudo cp "ScreamingCobra4.py" "/usr/share/ScreamingCobra/ScreamingCobra4"
+    sudo cp "ScreamingCobra5.py" "/usr/share/ScreamingCobra/ScreamingCobra5"
     sudo cp "interface.sh" "/usr/share/ScreamingCobra/interface.sh"
     sudo cp "ScreamingCobra" "/usr/local/bin/"
     sudo cp "copy"  "/usr/local/bin/ScreamingCobra"
