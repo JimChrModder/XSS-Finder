@@ -132,7 +132,7 @@ if __name__ == '__main__':
             get_params = get_params[:-1]
 
 # Enqueue GET attack
-            get_attack_url = '%s%s' % (base_url, get_params)
+            get_attack_url = '%s?%s' % (base_url, get_params)
             threadpool.enqueue(attack, get_attack_url, payload)
 
 # Wait for threadpool
