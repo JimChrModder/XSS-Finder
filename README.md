@@ -34,6 +34,8 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - Exploit: http://example.com?name=Tim#<script>alert(42)</script>
 - Result: Hello Tim#<script>alert(42)</script>!
 
+# Appeared
+- https://blog.kelvinsecurity.com/2019/09/23/ultimate-swiss-knife-for-finding-xss-in-parameters-uri-url-urn-and-post-based-fuzzing/
 
 # Kali Installation
 - chmod u+x Kali_Installer.sh
