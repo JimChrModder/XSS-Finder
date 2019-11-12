@@ -37,6 +37,9 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 # Appeared
 - https://blog.kelvinsecurity.com/2019/09/23/ultimate-swiss-knife-for-finding-xss-in-parameters-uri-url-urn-and-post-based-fuzzing/
 
+# Official Video and Tutorial
+- https://www.youtube.com/watch?v=7zHmizAjQ4o
+
 # Kali Installation
 - chmod u+x Kali_Installer.sh
 - ./Kali_Installer.sh
