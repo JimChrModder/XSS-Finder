@@ -36,6 +36,7 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 
 # Appeared
 - https://blog.kelvinsecurity.com/2019/09/23/ultimate-swiss-knife-for-finding-xss-in-parameters-uri-url-urn-and-post-based-fuzzing/
+- https://twitter.com/defsecnsattack/status/1189936304374591488
 
 # Official Video and Tutorial
 - https://www.youtube.com/watch?v=7zHmizAjQ4o
