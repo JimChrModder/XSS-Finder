@@ -47,6 +47,8 @@ echo -e "$red [$green+$red]$off Installing Modules ...";
 pip install -r requirements.txt
 pip install httplib2
 pip install mechanize
+pip install termcolor
+pip install html
 
 echo -e "$red [$green+$red]$off Checking directories..."
 if [ -d "/usr/share/ScreamingCobra" ]; then
