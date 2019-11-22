@@ -42,7 +42,7 @@ echo "                                                                          
 
 function linux() {
 echo -e "$red [$green+$red]$off Installing Python ...";
-pip install python2.7
+pip install python
 echo -e "$red [$green+$red]$off Installing Modules ...";
 pip install -r requirements.txt
 pip install httplib2
